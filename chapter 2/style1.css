@@ -1,0 +1,15 @@
+.bg{
+    height: 1740px;
+width: 500px;
+/* border: 3px solid blue; */
+  
+    color: rgb(208, 208, 12);
+   
+     /* background-image: url(img.jpg);
+    background-repeat:  no-repeat;
+    background-size: 70px 83px ;
+    background-position:  center; 
+background-attachment: scroll; */
+background: blue url(img.jpg) no-repeat  right top fixed ;
+/* background-size: 32px 83px; */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+        .container{
+            background-color: blue;
+            height: 546px;
+        }
+        .box{
+            border: 3px solid black;
+            display: inline-block;
+            /* height:40vh;
+            width: 30vw; */
+        }
+        img{
+            width: 446px;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+         img:hover{
+            width: 350px;
+        } 
+      
+        /* img{
+            width: 30vw;
+            height: 30vh;
+            transition-property: margin-right;
+            transition-duration:4s;
+            transition-timing-function: ease-in;
+      
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            
+        <img  src="https://source.unsplash.com/WLUHO9A_xik/960x520" alt="specific">
+    
+    </div>
+   
+</body>
+
+</html>

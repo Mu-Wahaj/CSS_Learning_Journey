@@ -1,0 +1,37 @@
+body{
+    background-image: url(img1.jpg)  ; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position:center ;
+
+}
+.red{
+    background-color: #c80d0d;
+    color: aqua;
+   
+ 
+}
+.blue{
+    background-color: #00141a;
+    color: blue;
+}
+.green{
+    background-color: #115a41b9;
+    color: bisque;
+}
+
+.container{
+    
+    background-color: #c80d0d;
+    color: aqua;  
+    background-image:url(img.jpg);
+    background-position:center ;
+  
+
+}
+*{
+    margin:  10px 0;
+    padding: 50px;
+
+}
+

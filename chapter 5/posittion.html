@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <!-- <link rel="stylesheet" href="unites.html"> -->
+    <style>
+        body {
+            height: 2500px;
+        }
+
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        header {
+            /* this ia sticky position */
+            /* z index is also applied which is based on other tags which tag has higher index have priority to bcome on the top */
+            background-color: black;
+            color: white;
+            height: 60px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+
+        }
+
+        li {
+            /* display: inline-block;
+            margin: 6px;
+            padding: 5px; */
+            list-style: square inside url(anything);
+        }
+
+        p {
+            text-align: center;
+            border: 3px solid rgb(50, 14, 116);
+        }
+
+        .container {
+            background-color: red;
+            color: white;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            position: relative;
+
+
+        }
+
+        .box {
+            /* this is relative positioning */
+            height: 60px;
+            width: 200px;
+            background-color: aqua;
+            position: relative;
+            left: 240px;
+            top: 5px;
+        }
+
+        .ox {
+            /* this is obsolute positioning  */
+            background-color: chocolate;
+            color: white;
+            position: absolute;
+            height: 80px;
+            width: 100px;
+            right: 0;
+
+        }
+
+        .tox {
+            background-color: yellow;
+            color: white;
+            position: fixed;
+            right: 0;
+            top: 100px;
+            height: 80px;
+            width: 100px;
+        }
+
+        .ul {
+            background-color: coral;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>help</li>
+                <li>about</li>
+                <li>home</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ab consequuntur illo voluptas ullam labore
+            cumque recusandae, voluptates sint cum cupiditate voluptate et magnam vel inventore qui iste. Animi vitae
+            totam consequatur nulla quo.</p>
+        <div class="box">
+            its a box in the center
+        </div>
+        <div class="ox"> i am another box in the cente name ox</div>
+
+    </div>
+    <div class="tox">i am position fixed box </div>
+    <div class="ul">
+        <li>mango</li>
+        <li>bnana</li>
+        <li>apple</li>
+    </div>
+</body>
+
+</html>

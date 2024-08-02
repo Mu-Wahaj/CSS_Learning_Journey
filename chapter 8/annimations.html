@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anomations</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: blueviolet;
+            
+        }
+        .box{
+            background-color: aqua;
+            background-image: url(backround.jpg);
+            background-size: cover;
+            /* background-color: chocolate; */
+            /* color: white; */
+            height: 150px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             /* animation-name: widhtAnimate;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;  */
+            /* animation-play-state: paused; */
+            /* animation-fill-mode: forwards; */
+            animation:widhtAnimate  1s linear 1s infinite alternate none;
+            
+        }
+        
+        @keyframes widhtAnimate {
+            0%{
+                width: 300px;
+                height: 150px;
+            }
+            50%{
+                width: 90vw;
+                height: 55vhvh;
+            }
+            
+            100%{
+                width: 100vw;
+                height: 60vh;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+        <!-- <img src="beasts.jpg" alt=""> -->
+    </div>
+    <div>
+    </div>
+</body>
+</html>
